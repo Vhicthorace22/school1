@@ -71,7 +71,7 @@ p{
     filter: brightness(60%);
 }
 
-@media (max-width: 390px) {
+@media (max-width: 414px) {
     .nav-menu{
         display: flex;
         flex-direction: column;
