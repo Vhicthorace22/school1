@@ -374,5 +374,29 @@ input{
         height: 300px;
         border-radius: 40px;
     }
+    button{
+    color: green;
+    background-color: white;
+    font-size: 17px;
+    font-family: sans-serif;
+    font-weight: 600;
+    border: 2px solid white;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    padding: 5px 20px 5px;
+}
+
+
+#support{
+    color: green;
+    font-size: 17px;
+    font-family: sans-serif;
+    font-weight: 600;
+    background-color: white;
+    padding: 7px 35px 7px;
+    margin: 0px 100px 100px;
+    border: 2px solid white;
+    border-radius: 10px;
+}
 
 }
