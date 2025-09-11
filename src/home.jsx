@@ -35,67 +35,7 @@ function Home() {
 }
 
 
-function Hamburger() {
 
-    const HamburgerMenu = () => {
-    const [isOpen, setIsOpen] = useState(false);
-
-    const toggleMenu = () => {
-        setIsOpen(prev => !prev);
-    };
-
-    return (
-        <div className="hamburger-container">
-        <div className="hamburger-icon" onClick={toggleMenu}>
-
-        <div
-        className="ham-one"
-        style={{
-          borderLeft: '2px solid gray',
-          height: '3px',
-          width: '50px',
-          margin: '0px 50px 0px',
-        }}
-        >
-        </div>
-        <div 
-        className="ham-two"
-        style={{
-          borderLeft: '2px solid gray',
-          height: '3px',
-          width: '50px',
-          margin: '0px 50px 0px',
-        }}
-        >
-        </div>          
-        <div 
-        className="ham-three"
-        style={{
-          borderLeft: '2px solid gray',
-          height: '2px',
-          width: '50px',
-          margin: '0px 50px 0px',
-        }}
-        >
-        </div>
-
-        </div>
-
-        {isOpen && (
-            <nav className="nav-menu">
-            <ul>
-                <li><a href="/about">About</a></li>
-                <li><a href="/events">Events</a></li>
-                <li><a href="/admissions">Admissions</a></li>
-                <li><a href="/services">Support Us</a></li>
-                <li><a href="/contact">Contact us</a></li>
-            </ul>
-            </nav>
-        )}
-        </div>
-    );
-    };
-}
 
 
 function Full() {
