@@ -7,7 +7,7 @@ import Basketball from './assets/baskteball.jpg'
 import Cafeteria from './assets/cafeteria.jpg'
 import Library from './assets/library.jpg'
 import Staff from './assets/white-man.jpg'
-import './App.css'
+import './App.css';
 
 
 
