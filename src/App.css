@@ -289,9 +289,7 @@ input{
         display: flex;
         flex-direction: column;
     }
-    a{
-        display: none;
-    }
+
     h1{
     color: white;
     font-size: 30px;
@@ -331,8 +329,25 @@ input{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    margin: 10px 50px 60px;
+    margin: 10px 50px 100px;
     padding: 90px 0px 0px;
+    }
+    .both{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    }
+
+    .mission{
+        max-width: 320px;
+    }
+
+    .vision{
+        max-width: 320px;
+    }
+    .about{
+    background-color: rgb(97, 146, 106);
+    padding: 0px 30px 0px;
     }
 
 }
