@@ -7,7 +7,7 @@ import Events from './events.jsx'
 import Contact from './contact.jsx'
 import About from './about.jsx'
 import Support from './support.jsx'
-import './App.css'
+import './App.css';
 
 function App() {
 

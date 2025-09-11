@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from 'react-router-dom'
-import './App.css'
+import './App.css';
 function Logo() {
     return(
         <div className="logo">
@@ -13,7 +13,6 @@ function Nav() {
     return(
         <div className="Navigation">
             <Logo/>
-            <Hamburger/>
             <Link to="/about">ABOUT</Link>
             <Link to="/events"> EVENTS</Link>
             <Link to="/admissions">ADMISSIONS</Link>
