@@ -13,6 +13,7 @@ function Nav() {
     return(
         <div className="Navigation">
             <Logo/>
+            <HamburgerDiv/>
             <Link to="/about">ABOUT</Link>
             <Link to="/events"> EVENTS</Link>
             <Link to="/admissions">ADMISSIONS</Link>
@@ -22,6 +23,38 @@ function Nav() {
     );
 }
 
+
+
+function HamburgerDiv() {
+  return(
+    <div className="dm-div">
+        <div className="ham-one"
+            style={{
+            borderLeft: '2px solid gray',
+            height: '10px',
+            width: '50px',
+            margin: '0px 50px 0px',
+        }}
+      ></div>
+        <div className="ham-two"
+            style={{
+            borderLeft: '2px solid gray',
+            height: '10px',
+            width: '50px',
+            margin: '0px 50px 0px',
+        }}
+      ></div>
+        <div className="ham-three"
+            style={{
+            borderLeft: '2px solid gray',
+            height: '10px',
+            width: '50px',
+            margin: '0px 50px 0px',
+        }}
+      ></div>
+    </div>
+  )
+}
  
 function Home() {
     return(
