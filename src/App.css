@@ -38,7 +38,6 @@ p{
 }
 .logo{
     color: white;
-    font-size: 500px;
     font-size: 20px;
     font-family: sans-serif;
     background-color: green;
@@ -50,7 +49,7 @@ p{
 
 /* styling for homepage */
 
-.hamburger-container{
+.hamburger-menu{
     display: none;
 }
 
@@ -286,6 +285,11 @@ input{
 /* this is the styling for responsiveness */
 @media  (max-width: 414px) {
     .nav-menu{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .hamburger-menu{
         display: flex;
         flex-direction: column;
     }

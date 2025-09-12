@@ -27,7 +27,7 @@ function Nav() {
 
 function HamburgerDiv() {
   return(
-    <div className="dm-div">
+    <div className="hamburger-menu">
         <div className="ham-one"
             style={{
             borderLeft: '2px solid gray',
@@ -47,8 +47,8 @@ function HamburgerDiv() {
         <div className="ham-three"
             style={{
             borderLeft: '2px solid gray',
-            height: '10px',
-            width: '50px',
+            height: '2px',
+            width: '100px',
             margin: '0px 50px 0px',
         }}
       ></div>
