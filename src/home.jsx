@@ -30,22 +30,22 @@ function HamburgerDiv() {
     <div className="hamburger-menu">
         <div className="ham-one"
             style={{
-            borderLeft: '2px solid gray',
-            padding: '1px 250px 1px',
+            border: '2px solid gray',
+            padding: '0px 30px 0px',
             margin: '0px 0px 0px',
         }}
       ></div>
         <div className="ham-two"
             style={{
-            borderLeft: '2px solid gray',
-            padding: '1px 250px 1px',
+            border: '2px solid gray',
+            padding: '0px 30px 0px',
             margin: '10px 0px 10px',
         }}
       ></div>
         <div className="ham-three"
             style={{
-            borderLeft: '2px solid gray',
-            padding: '1px 250px 1px',
+            border: '2px solid gray',
+            padding: '0px 30px 0px',
             margin: '0px 0px 0px',
         }}
       ></div>
