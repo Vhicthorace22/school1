@@ -295,6 +295,8 @@ input{
 .hamburger-menu-container {
   position: relative;
   z-index: 1000;
+  margin: 20px 110px 0px;
+  
 }
 
 .hamburger {
@@ -304,6 +306,7 @@ input{
   flex-direction: column;
   justify-content: space-between;
   height: 22px;
+  margin: 0px 60px 0px;
 }
 
 .hamburger .bar {
@@ -323,7 +326,7 @@ input{
 }
 
 .hamburger.open .bar:nth-child(3) {
-  transform: rotate(-45deg) translate(6px, -6px);
+  transform: rotate(-45deg) translate(7px, -7px);
 }
 
 /* Menu styles */
@@ -347,7 +350,9 @@ nav.menu.show{
 
 .menu a{
     display: block;
-    font-size: 17px;
+    font-size: 15px;
+    font-family: sans-serif;
+    font-weight: 600;
     color: #333;
     text-decoration: none;
 }
