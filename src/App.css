@@ -49,7 +49,9 @@ p{
 
 /* styling for homepage */
 
-.hamburger-menu{
+
+
+.hamburger{
     display: none;
 }
 
@@ -58,6 +60,7 @@ p{
     display: flex;
     flex-direction: row;
     margin: 15px 50px 15px;
+    position: static;
 
 }
 
@@ -289,11 +292,68 @@ input{
         flex-direction: column;
     }
 
-    .hamburger-menu{
-        display: flex;
-        flex-direction: column;
-        margin: 15px 20px 0px ;
-    }
+.hamburger-menu-container {
+  position: relative;
+  z-index: 1000;
+}
+
+.hamburger {
+  width: 30px;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 22px;
+}
+
+.hamburger .bar {
+  height: 4px;
+  background-color: #333;
+  border-radius: 2px;
+  transition: 0.3s;
+}
+
+/* Hamburger open animation */
+.hamburger.open .bar:nth-child(1) {
+  transform: rotate(45deg) translate(5px, 5px);
+}
+
+.hamburger.open .bar:nth-child(2) {
+  opacity: 0;
+}
+
+.hamburger.open .bar:nth-child(3) {
+  transform: rotate(-45deg) translate(6px, -6px);
+}
+
+/* Menu styles */
+.menu {
+  display: none;
+  position: absolute;
+  top: 40px;
+  left: 0;
+  background-color: white;
+  width: 200px;
+  height: 00px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+nav.menu.show{
+    display: flex;
+    flex-direction: column;
+    width: 100px;
+    height: 230px;
+}
+
+
+.menu a{
+    display: block;
+    font-size: 17px;
+    color: #333;
+    text-decoration: none;
+}
+
+
+
     a{
         display: none;
     }
@@ -311,7 +371,7 @@ input{
     }
     .logo{
     margin: 10px 30px ;
-    padding:10px 45px 2px;
+    padding:10px 45px 8px;
     }
     .welcome-part{
         background-size: cover;
@@ -319,9 +379,6 @@ input{
         padding-left: 50px;
         padding-bottom: 20px;
         filter: brightness(60%);
-    }
-    .hamburger-container{
-        display: flex;
     }
     .admin-staff-combo{
         margin: 0px 10px 0px;

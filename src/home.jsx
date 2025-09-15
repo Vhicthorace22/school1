@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from 'react-router-dom'
+import HamburgerMenu from "./Hamburger.jsx";
 import './App.css';
 function Logo() {
     return(
@@ -13,7 +14,7 @@ function Nav() {
     return(
         <div className="Navigation">
             <Logo/>
-            <HamburgerDiv/>
+            <HamburgerMenu/>
             <Link to="/about">ABOUT</Link>
             <Link to="/events"> EVENTS</Link>
             <Link to="/admissions">ADMISSIONS</Link>
@@ -24,34 +25,6 @@ function Nav() {
 }
 
 
-
-function HamburgerDiv() {
-  return(
-    <div className="hamburger-menu">
-        <div className="ham-one"
-            style={{
-            border: '2px solid gray',
-            padding: '0px 30px 0px',
-            margin: '0px 0px 0px',
-        }}
-      ></div>
-        <div className="ham-two"
-            style={{
-            border: '2px solid gray',
-            padding: '0px 30px 0px',
-            margin: '10px 0px 10px',
-        }}
-      ></div>
-        <div className="ham-three"
-            style={{
-            border: '2px solid gray',
-            padding: '0px 30px 0px',
-            margin: '0px 0px 0px',
-        }}
-      ></div>
-    </div>
-  )
-}
  
 function Home() {
     return(
